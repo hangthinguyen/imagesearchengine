@@ -10,7 +10,7 @@ const Search = ({ setInput, onClick }) => {
       <input
         type="submit"
         value="Search"
-        className="bg-blue-400 px-2 rounded"
+        className="bg-blue-400 px-2 rounded hover:cursor-pointer"
         onClick={onClick}
       />
     </form>
